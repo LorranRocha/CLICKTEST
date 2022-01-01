@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.counter-box{
+    margin-left: 15%;
+    background-color: brown;
+    border-radius: 12px;
+    width: 30%;
+    padding: 3em;
+}
+
+
+.counter-content{
+    
+    margin: 3em;
+    display: flex;
+}
+
+.counter-content button{
+    margin-left: 50%;
+    padding: 2em;
+    border: solid;
+    border-radius: 8px;
+}
+
+.value{
+    font-size: 3em;
+}
+
+@media (max-width: 500px){
+    .counter-content{
+        display: block;
+    }
+
+    .counter-box{
+        margin-left: 0;
+        width: 50%;
+    }
+
+    .counter-content button{
+        margin-left: 0;
+        margin-top: 2em;
+        padding: 2em;
+        border: solid;
+        border-radius: 8px;
+    }
+}
